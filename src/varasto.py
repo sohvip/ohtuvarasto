@@ -12,7 +12,6 @@ class Varasto:
             self.saldo = tilavuus
 
     def paljonko_mahtuu(self):
-        moi = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
         return self.tilavuus - self.saldo
 
     def lisaa_varastoon(self, maara):
